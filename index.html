@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-spreadsheet'></i>
+      <span class="logo-name">Whisper</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class='bx bxs-grid-alt'></i>
+          <span class="link-name">Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-box'></i>
+          <span class="link-name">Products</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-list-ul'></i>
+          <span class="link-name">Order List</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-pie-chart-alt-2'></i>
+          <span class="link-name">Analytics</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-coin-stack'></i>
+          <span class="link-name">Stock</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-book-alt'></i>
+          <span class="link-name">Total Order</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-group'></i>
+          <span class="link-name">Team</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="link-name">Settings</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-log-out'></i>
+          <span class="link-name">Log Out</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu menu-button'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search-alt'></i>
+      </div>
+      <div class="profile">
+        <img src="./images/profile.jpg" alt="">
+        <span class="user-name">Mário Fernando</span>
+        <i class="bx bx-chevron-down"></i>
+      </div>
+    </nav>
+    <div class="home-content">
+      <div class="overview">
+        <div class="box">
+          <div class="details">
+            <div class="title">Order List</div>
+            <div class="value">40,876</div>
+            <div class="indicator">
+              <i class="bx bx-up-arrow-alt"></i>
+              <span class="indicator-description">Up from yesterday</span>
+            </div>
+          </div>
+          <i class="bx bxs-cart-alt cart blue"></i>
+        </div>
+        <div class="box">
+          <div class="details">
+            <div class="title">Total Sales</div>
+            <div class="value">38,214</div>
+            <div class="indicator">
+              <i class="bx bx-up-arrow-alt"></i>
+              <span class="indicator-description">Up from yesterday</span>
+            </div>
+          </div>
+          <i class="bx bxs-cart-add cart green"></i>
+        </div>
+        <div class="box">
+          <div class="details">
+            <div class="title">Total Profit</div>
+            <div class="value">55,019</div>
+            <div class="indicator">
+              <i class="bx bx-up-arrow-alt"></i>
+              <span class="indicator-description">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bx-dollar cart yellow'></i>
+        </div>
+        <div class="box">
+          <div class="details">
+            <div class="title">Total Profit</div>
+            <div class="value">55,019</div>
+            <div class="indicator">
+              <i class="bx bx-down-arrow-alt down"></i>
+              <span class="indicator-description">Up from yesterday</span>
+            </div>
+          </div>
+          <i class='bx bx-dollar cart red'></i>
+        </div>
+      </div>
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">Recent Sales</div>
+          <div class="sales-details">
+            <ul class="details">
+              <li class="topic">Date</li>
+              <li><a href="#">02 Jan 2022</a></li>
+              <li><a href="#">02 Jan 2022</a></li>
+              <li><a href="#">02 Jan 2022</a></li>
+              <li><a href="#">02 Jan 2022</a></li>
+              <li><a href="#">02 Jan 2022</a></li>
+              <li><a href="#">02 Jan 2022</a></li>
+            </ul>
+            <ul class="details">
+              <li class="topic">Costumer</li>
+              <li><a href="#">Alex Doe</a></li>
+              <li><a href="#">Alex Doe</a></li>
+              <li><a href="#">Alex Doe</a></li>
+              <li><a href="#">Alex Doe</a></li>
+              <li><a href="#">Alex Doe</a></li>
+              <li><a href="#">Alex Doe</a></li>
+            </ul>
+            <ul class="details">
+              <li class="topic">Sale</li>
+              <li><a href="#">Delivered</a></li>
+              <li><a href="#">Pending...</a></li>
+              <li><a href="#">Delivered</a></li>
+              <li><a href="#">Delivered</a></li>
+              <li><a href="#">Pending...</a></li>
+              <li><a href="#">Delivered</a></li>
+            </ul>
+            <ul class="details">
+              <li class="topic">Total</li>
+              <li><a href="#">$ 215</a></li>
+              <li><a href="#">$ 320</a></li>
+              <li><a href="#">$ 47</a></li>
+              <li><a href="#">$ 88</a></li>
+              <li><a href="#">$ 199</a></li>
+              <li><a href="#">$ 113</a></li>
+            </ul>
+          </div>
+          <div class="button">
+            <a href="#">See all</a>
+          </div>
+        </div>
+        <div class="top-sales box">
+          <div class="title">Top Selling Product</div>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="./images/woman-purse.jpg" alt="">
+                <span class="product-name">Wonderful Purse</span>
+              </a>
+              <span class="price">$ 14.99</span>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/woman-purse.jpg" alt="">
+                <span class="product-name">Wonderful Purse</span>
+              </a>
+              <span class="price">$ 14.99</span>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/woman-purse.jpg" alt="">
+                <span class="product-name">Wonderful Purse</span>
+              </a>
+              <span class="price">$ 14.99</span>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/woman-purse.jpg" alt="">
+                <span class="product-name">Wonderful Purse</span>
+              </a>
+              <span class="price">$ 14.99</span>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/woman-purse.jpg" alt="">
+                <span class="product-name">Wonderful Purse</span>
+              </a>
+              <span class="price">$ 14.99</span>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/woman-purse.jpg" alt="">
+                <span class="product-name">Wonderful Purse</span>
+              </a>
+              <span class="price">$ 14.99</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./main.js"></script>
+</body>
+</html>
